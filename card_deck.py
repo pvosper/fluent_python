@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Example: 1-1"""
 
 import collections
 

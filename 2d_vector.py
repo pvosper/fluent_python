@@ -1,6 +1,8 @@
 #!/usr/bin/env python
+"""Example: 1-2"""
 
 from math import hypot
+
 
 class Vector:
 
