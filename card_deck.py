@@ -19,3 +19,38 @@ class FrenchDeck:
 
     def __getitem__(self, position):
         return self._cards[position]
+
+
+print('Examples:')
+
+print("\tbeer_card = Card('7', 'diamonds')")
+beer_card = Card('7', 'diamonds')
+
+print('\tbeer_card: {}'.format(beer_card))
+
+print('\tdeck = FrenchDeck()')
+deck = FrenchDeck()
+
+print('\tlen(deck): {}'.format(len(deck)))
+
+print('\tdeck[0]: {}'.format(deck[0]))
+
+print('\tdeck[-1]: {}'.format(deck[-1]))
+
+print('\tfrom random import choice')
+from random import choice
+
+print('\tchoice(deck): {}'.format(choice(deck)))
+
+print('\tchoice(deck): {}'.format(choice(deck)))
+
+print('\tchoice(deck): {}'.format(choice(deck)))
+
+print('\tdeck[:3]: {}'.format(deck[:3]))
+
+for card in deck:
+    print('\t{}'.format(card))
+
+print("\tCard('Q', 'hearts') in deck: {}".format(Card('Q', 'hearts') in deck))
+
+print("\tCard('Q', 'beasts') in deck: {}".format(Card('Q', 'beasts') in deck))
