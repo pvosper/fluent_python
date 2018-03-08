@@ -49,6 +49,8 @@ print('\tchoice(deck): {}'.format(choice(deck)))
 
 print('\tdeck[:3]: {}'.format(deck[:3]))
 
+print('\tdeck[12::13]: {}'.format(deck[12::13]))    # stride
+
 for card in deck:
     print('\t{}'.format(card))
 
